@@ -20,7 +20,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A3-Qv-EHh">
                                 <rect key="frame" x="14.5" y="40" width="110" height="110"/>
-                                <color key="backgroundColor" red="0.74871879819999998" green="0.76883822680000002" blue="0.78676408529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="8A3-Qv-EHh" secondAttribute="height" multiplier="1:1" id="SVZ-So-TIS"/>
                                     <constraint firstAttribute="width" constant="110" id="bl3-wR-x3W"/>
@@ -29,10 +29,13 @@
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="0.93137997390000005" green="0.52660351989999998" blue="0.57927095890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapeOnGrid:" destination="9pv-A4-QxB" eventType="touchUpInside" id="bZ9-bj-tST"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYs-Fy-dpU">
                                 <rect key="frame" x="132.5" y="40" width="110" height="110"/>
-                                <color key="backgroundColor" red="0.74871879819999998" green="0.76883822680000002" blue="0.78676408529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="3yr-0P-LoP"/>
                                     <constraint firstAttribute="width" secondItem="aYs-Fy-dpU" secondAttribute="height" multiplier="1:1" id="5gN-rd-ZN8"/>
@@ -41,10 +44,13 @@
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="0.93137997390000005" green="0.52660351989999998" blue="0.57927095890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapeOnGrid:" destination="9pv-A4-QxB" eventType="touchUpInside" id="hKB-ka-Uk4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1h-dB-SSI">
                                 <rect key="frame" x="250.5" y="40" width="110" height="110"/>
-                                <color key="backgroundColor" red="0.74871879819999998" green="0.76883822680000002" blue="0.78676408529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="8fw-Ve-GMY"/>
                                     <constraint firstAttribute="width" secondItem="T1h-dB-SSI" secondAttribute="height" multiplier="1:1" id="9Fe-x7-0Tm"/>
@@ -53,10 +59,13 @@
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="0.93137997390000005" green="0.52660351989999998" blue="0.57927095890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapeOnGrid:" destination="9pv-A4-QxB" eventType="touchUpInside" id="VmY-rr-WuG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0S-tt-VV4">
                                 <rect key="frame" x="14.5" y="158" width="110" height="110"/>
-                                <color key="backgroundColor" red="0.74871879819999998" green="0.76883822680000002" blue="0.78676408529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="CE0-pf-PvR"/>
                                     <constraint firstAttribute="width" secondItem="p0S-tt-VV4" secondAttribute="height" multiplier="1:1" id="Nwi-0w-2lf"/>
@@ -65,10 +74,13 @@
                                 <state key="normal" title="4">
                                     <color key="titleColor" red="0.93137997390000005" green="0.52660351989999998" blue="0.57927095890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapeOnGrid:" destination="9pv-A4-QxB" eventType="touchUpInside" id="W4W-7V-AyR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgC-3t-nCG">
                                 <rect key="frame" x="132.5" y="158" width="110" height="110"/>
-                                <color key="backgroundColor" red="0.74871879819999998" green="0.76883822680000002" blue="0.78676408529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bgC-3t-nCG" secondAttribute="height" multiplier="1:1" id="gT4-cq-JBA"/>
                                     <constraint firstAttribute="width" constant="110" id="kwc-BD-FMc"/>
@@ -77,10 +89,13 @@
                                 <state key="normal" title="5">
                                     <color key="titleColor" red="0.93137997390000005" green="0.52660351989999998" blue="0.57927095890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapeOnGrid:" destination="9pv-A4-QxB" eventType="touchUpInside" id="CE0-1M-Qud"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOe-RP-DpG">
                                 <rect key="frame" x="250.5" y="158" width="110" height="110"/>
-                                <color key="backgroundColor" red="0.74871879819999998" green="0.76883822680000002" blue="0.78676408529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="oOe-RP-DpG" secondAttribute="height" multiplier="1:1" id="AYQ-IC-D6h"/>
                                     <constraint firstAttribute="width" constant="110" id="Lyd-Rg-kwX"/>
@@ -89,10 +104,13 @@
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="0.93137997390000005" green="0.52660351989999998" blue="0.57927095890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapeOnGrid:" destination="9pv-A4-QxB" eventType="touchUpInside" id="7eE-bU-5H1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3B-Wc-SeU">
                                 <rect key="frame" x="132.5" y="276" width="110" height="110"/>
-                                <color key="backgroundColor" red="0.74871879819999998" green="0.76883822680000002" blue="0.78676408529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="R3B-Wc-SeU" secondAttribute="height" multiplier="1:1" id="RiO-7K-cWT"/>
                                     <constraint firstAttribute="width" constant="110" id="gNu-da-yZq"/>
@@ -101,10 +119,13 @@
                                 <state key="normal" title="8">
                                     <color key="titleColor" red="0.93137997390000005" green="0.52660351989999998" blue="0.57927095890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapeOnGrid:" destination="9pv-A4-QxB" eventType="touchUpInside" id="trf-pn-smO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5h-le-lgL">
                                 <rect key="frame" x="14.5" y="276" width="110" height="110"/>
-                                <color key="backgroundColor" red="0.74871879819999998" green="0.76883822680000002" blue="0.78676408529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="y5h-le-lgL" secondAttribute="height" multiplier="1:1" id="VLb-n6-EgB"/>
                                     <constraint firstAttribute="width" constant="110" id="kWe-Db-YvB"/>
@@ -113,10 +134,13 @@
                                 <state key="normal" title="7">
                                     <color key="titleColor" red="0.93137997390000005" green="0.52660351989999998" blue="0.57927095890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapeOnGrid:" destination="9pv-A4-QxB" eventType="touchUpInside" id="mhu-4K-ZpY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Jg-u5-Kpa">
                                 <rect key="frame" x="250.5" y="276" width="110" height="110"/>
-                                <color key="backgroundColor" red="0.74871879819999998" green="0.76883822680000002" blue="0.78676408529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="8Jg-u5-Kpa" secondAttribute="height" multiplier="1:1" id="A5q-Pp-Vlt"/>
                                     <constraint firstAttribute="width" constant="110" id="EKC-iF-vF3"/>
@@ -125,15 +149,46 @@
                                 <state key="normal" title="9">
                                     <color key="titleColor" red="0.93137997390000005" green="0.52660351989999998" blue="0.57927095890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapeOnGrid:" destination="9pv-A4-QxB" eventType="touchUpInside" id="6Ep-5D-qps"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucl-X1-n0r">
+                                <rect key="frame" x="100" y="518" width="175" height="80"/>
+                                <color key="backgroundColor" red="0.74871879819999998" green="0.76883822680000002" blue="0.78676408529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="5Tv-GK-67Y"/>
+                                    <constraint firstAttribute="width" constant="175" id="b6R-s7-JaH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleColor" red="0.93137997390000005" green="0.52660351989999998" blue="0.57927095890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapeNewGameButton" destination="9pv-A4-QxB" eventType="touchUpInside" id="fk1-i0-QOW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X à vous de jouer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mi-LI-qi2">
+                                <rect key="frame" x="93.5" y="406" width="188" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="67J-gm-qLw"/>
+                                    <constraint firstAttribute="width" secondItem="0mi-LI-qi2" secondAttribute="height" multiplier="188:53" id="UZ5-7Z-t4Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.3424746394" green="0.41935455799999999" blue="0.50887805220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="R3B-Wc-SeU" firstAttribute="top" secondItem="bgC-3t-nCG" secondAttribute="bottom" constant="8" id="06I-UJ-Pyv"/>
                             <constraint firstItem="bgC-3t-nCG" firstAttribute="top" secondItem="aYs-Fy-dpU" secondAttribute="bottom" constant="8" id="0Wx-Xq-qNE"/>
                             <constraint firstItem="T1h-dB-SSI" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="20" id="4h5-ik-Tex"/>
+                            <constraint firstItem="ucl-X1-n0r" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="4p3-DS-cJf"/>
                             <constraint firstItem="R3B-Wc-SeU" firstAttribute="leading" secondItem="y5h-le-lgL" secondAttribute="trailing" constant="8" id="5dC-Eb-0KA"/>
+                            <constraint firstItem="0mi-LI-qi2" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="7DA-xn-yH1"/>
                             <constraint firstItem="y5h-le-lgL" firstAttribute="top" secondItem="p0S-tt-VV4" secondAttribute="bottom" constant="8" id="GSx-bn-ag4"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="ucl-X1-n0r" secondAttribute="bottom" constant="20" id="Gsx-ML-Tn4"/>
                             <constraint firstItem="T1h-dB-SSI" firstAttribute="leading" secondItem="aYs-Fy-dpU" secondAttribute="trailing" constant="8" id="NhS-5X-bI5"/>
                             <constraint firstItem="aYs-Fy-dpU" firstAttribute="leading" secondItem="8A3-Qv-EHh" secondAttribute="trailing" constant="8" id="Npd-Ui-6pM"/>
                             <constraint firstItem="p0S-tt-VV4" firstAttribute="top" secondItem="8A3-Qv-EHh" secondAttribute="bottom" constant="8" id="Rfw-Ii-S6q"/>
@@ -142,6 +197,7 @@
                             <constraint firstItem="aYs-Fy-dpU" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="20" id="cxX-xt-qsW"/>
                             <constraint firstItem="R3B-Wc-SeU" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="hbj-7H-AwG"/>
                             <constraint firstItem="8Jg-u5-Kpa" firstAttribute="top" secondItem="oOe-RP-DpG" secondAttribute="bottom" constant="8" id="jPA-qk-akR"/>
+                            <constraint firstItem="0mi-LI-qi2" firstAttribute="top" secondItem="R3B-Wc-SeU" secondAttribute="bottom" constant="20" id="mf1-Up-3O5"/>
                             <constraint firstItem="bgC-3t-nCG" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="r6x-Kh-Z3U"/>
                             <constraint firstItem="aYs-Fy-dpU" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="rJo-ak-B0C"/>
                             <constraint firstItem="oOe-RP-DpG" firstAttribute="top" secondItem="T1h-dB-SSI" secondAttribute="bottom" constant="8" id="u9e-D4-LzB"/>
@@ -151,10 +207,23 @@
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Game" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="button00" destination="8A3-Qv-EHh" id="8kk-Ix-Bg4"/>
+                        <outlet property="button01" destination="aYs-Fy-dpU" id="zta-MK-i1u"/>
+                        <outlet property="button02" destination="T1h-dB-SSI" id="Qnv-qh-Gem"/>
+                        <outlet property="button10" destination="p0S-tt-VV4" id="NPz-LX-rKh"/>
+                        <outlet property="button11" destination="bgC-3t-nCG" id="cgo-Us-ipB"/>
+                        <outlet property="button12" destination="oOe-RP-DpG" id="rbO-mc-71E"/>
+                        <outlet property="button20" destination="y5h-le-lgL" id="Dh6-Qq-MA8"/>
+                        <outlet property="button21" destination="R3B-Wc-SeU" id="qE5-v0-DU5"/>
+                        <outlet property="button22" destination="8Jg-u5-Kpa" id="Ntu-6i-TvV"/>
+                        <outlet property="label" destination="0mi-LI-qi2" id="hK9-gx-1bJ"/>
+                        <outlet property="newGameButton" destination="ucl-X1-n0r" id="c8e-UI-oh4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.27536231884062" y="-320.08928571428572"/>
+            <point key="canvasLocation" x="748" y="-320.68965517241384"/>
         </scene>
         <!--Settings-->
         <scene sceneID="wg7-f3-ORb">
@@ -171,8 +240,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="80" y="363" width="215" height="17"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SettingsViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
+                                <rect key="frame" x="78" y="363" width="219" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
