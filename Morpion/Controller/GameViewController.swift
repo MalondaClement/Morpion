@@ -25,6 +25,9 @@ class GameViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		for button in [button00, button01, button02, button10, button11, button12, button20, button21, button22]{
+			button?.layer.cornerRadius = 15 //idée à revoir
+		}
 		startNewGame()
 	}
 	
@@ -48,36 +51,13 @@ class GameViewController: UIViewController {
 	}
 
 	private func update(_ sender: UIButton){
-		switch sender {
-		case button00:
-			game.update(zone: 00)
-			break
-		case button01:
-			game.update(zone: 01)
-			break
-		case button02:
-			game.update(zone: 02)
-			break
-		case button10:
-			game.update(zone: 10)
-			break
-		case button11:
-			game.update(zone: 11)
-			break
-		case button12:
-			game.update(zone: 12)
-			break
-		case button20:
-			game.update(zone: 20)
-			break
-		case button21:
-			game.update(zone: 21)
-			break
-		case button22:
-			game.update(zone: 22)
-			break
-		default:
-			break
+		var button = [[button00, button01, button02], [button10, button11, button12], [button20, button21, button22]]
+		for i in 0...2{
+			for j in 0...2{
+				if sender == button[i][j]{
+					game.update(zone: 10*i+j)
+				}
+			}
 		}
 	}
 	
