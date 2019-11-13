@@ -1,1 +1,3 @@
-Morpion.xcodeproj/xcuserdata/ClementMalonda.xcuserdatad/xcdebugger/
+Morpion.xcodeproj/xcuserdata/*.xcuserdatad/xcdebugger/
+xcuserdata
+.DS_Store

@@ -12,23 +12,13 @@ class Game {
 	var grid: [[Character]] = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]]
 	var currentPlayer: CurrentPlayer = .X
 	var state: State = .ongoing
+	var ia: IA = IA.init()
 	
 	enum CurrentPlayer{
 		case X, O
 	}
 	enum State {
 		case ongoing, over
-	}
-	
-	private func changePlayer(){ //tjr utile ?
-		switch currentPlayer {
-		case .X:
-			currentPlayer = .X
-			break
-		case .O:
-			currentPlayer = .O
-			break
-		}
 	}
 	
 	private func finishGame(){
@@ -63,6 +53,7 @@ class Game {
 			grid[zone/10][zone%10] = "X"
 		}else {
 			grid[zone/10][zone%10] = "O"
+			ia.isPlaying(grid: grid)
 		}
 	}
 }
